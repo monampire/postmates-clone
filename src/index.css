@@ -22,3 +22,21 @@ html {
   -webkit-transition: all 0.3s cubic-bezier(0.2, 0, 0.4, 1);
   transition: all 0.3s cubic-bezier(0.2, 0, 0.4, 1);
 }
+
+button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+input {
+  border: none;
+  height: 1.5rem;
+  width: 300px;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: rgb(45, 49, 56);
+  letter-spacing: 0.14px;
+  background-color: inherit;
+  padding: 1rem;
+}

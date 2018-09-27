@@ -20,6 +20,21 @@
   min-height: 4rem;
 }
 
+.location-option-bar {
+  display: flex;
+  max-width: 1024px;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.location-option-bar>div {
+  padding: 0.5rem 0.8rem;
+}
+
+.location-option-bar div>*:nth-child(2n) {
+  margin: 0 0.5rem;
+}
+
 .top-header>div {
   align-items: center;
 }
@@ -27,11 +42,11 @@
 .header-search {
   display: flex;
   width: 100%;
-  flex: 2 0 0;
+  flex: 3;
 }
 
 .user-profile {
   display: flex;
   width: 100%;
-  flex: 1 0 0;
+  flex: 1;
 }
