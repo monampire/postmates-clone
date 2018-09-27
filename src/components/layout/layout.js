@@ -20,8 +20,17 @@ export default function Layout() {
       </header>
       <div>
         <div>Banner Header</div>
-        <div className="location-option-bar" />
-        <main />
+        <div className="location-option-bar">
+          <div>
+            <button>Delivery</button>
+            <span>or</span>
+            <button>Pickup</button>
+          </div>
+          <div>
+            <button>Select City</button>
+          </div>
+        </div>
+        <main>Restuarants Listing Goes here - Dynamic data</main>
       </div>
     </div>
   );
