@@ -1,0 +1,24 @@
+@import url('https://use.typekit.net/qmq0znp.css');
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  font-family: proxima-nova, sans-serif;
+  background: rgb(237, 235, 235, 100%);
+}
+
+*,
+*::before,
+*::after {
+  position: relative;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -webkit-transition: all 0.3s cubic-bezier(0.2, 0, 0.4, 1);
+  transition: all 0.3s cubic-bezier(0.2, 0, 0.4, 1);
+}

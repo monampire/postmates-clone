@@ -1,0 +1,37 @@
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  flex-direction: column;
+}
+
+
+.title {
+  margin-right: 2rem;
+}
+
+
+.top-header {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+  background-color: rgb(244, 220, 220);
+  min-height: 4rem;
+}
+
+.top-header>div {
+  align-items: center;
+}
+
+.header-search {
+  display: flex;
+  width: 100%;
+  flex: 2 0 0;
+}
+
+.user-profile {
+  display: flex;
+  width: 100%;
+  flex: 1 0 0;
+}
