@@ -50,3 +50,26 @@
   width: 100%;
   flex: 1;
 }
+
+.banner-image-container {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(244, 220, 220);
+  height: 350px;
+}
+
+.banner-image-container>img {
+  width: 70%;
+  height: 100%;
+}
+
+.banner-slogan {
+  position: absolute;
+  top: 8rem;
+  left: 2rem;
+}
+
+h1>span {
+  display: block;
+  font-size: 4rem;
+}
