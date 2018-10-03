@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './layout.css';
+import './layout.scss';
 
 export default class Layout extends Component {
   imageURL = decodeURIComponent(
@@ -46,7 +46,9 @@ export default class Layout extends Component {
               <button>Select City</button>
             </div>
           </div>
-          <main>Restuarants Listing Goes here - Dynamic data</main>
+          <main className="main-content">
+            Restuarants Listing Goes here - Dynamic data
+          </main>
         </div>
       </div>
     );
